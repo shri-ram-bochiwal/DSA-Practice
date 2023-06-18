@@ -14,7 +14,7 @@ public class DuplicatesInArray {
         for (int i = 0; i < nums.length; i++) {
             if (map.containsKey(nums[i])) {
                 ans.add(nums[i]);
-            } else {
+            } else { 
                 map.put(nums[i], 1);
             }
         }

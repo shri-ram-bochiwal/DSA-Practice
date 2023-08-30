@@ -1,6 +1,6 @@
 # Approach 
 
-- n is the length of array B.
+- N is the length of array B.
 
 - dp is a 2D array used for dynamic programming. dp[i][j] represents the maximum value that can be obtained by considering the first i+1 elements from array B and having a total sum not exceeding j.
 
